@@ -1,40 +1,39 @@
-# Sistemas-Operativos
+# Sistemas Operativos
 Curso de sistemas operativos 
 
 APUNTES DEL CURSO
 
 # TEMA 1
-windos 11 tiene  alrededor  de 50 millones y 80 millones de  codigo 
-se programo en los lenguajes c , c++ , asemmbly,  c#  y  XAML
+Windows 11 tiene alrededor de 50 millones a 80 millones de líneas de código.
+Se programó en los lenguajes C, C++, Assembly, C# y XAML.
 
-##  caules son los elementos que  componen tu pc 
-* pantalla
-* mause
-* monitor
-* teclado
+## ¿Cuáles son los elementos que componen tu PC?
+* Pantalla
+* Ratón
+* Monitor
+* Teclado
 * PC
-* ram
+* RAM
 
-## conoces las funciones que cumple cada componente de tu PC
+## ¿Conoces las funciones que cumple cada componente de tu PC?
 
-* la ram almacena informacion 
-* se cuardan archivos en el disco
+* La RAM almacena información.
+* Se guardan archivos en el disco.
 
-# ELEMNTOS BASICOS  
+# ELEMENTOS BÁSICOS
 
-## CPU  , memoria
-una computadora  es un sistema informatico q    ue se componmen de dos aspectos ( hadware y sofware)
- est os  soposrtes  son elem,emytops que trabajan conectados  para proporcionar datis y estos datos son procesados  gracias  a las instrucciones
+## CPU y Memoria
+Una computadora es un sistema informático que se compone de dos aspectos (hardware y software).
+Estos soportes son elementos que trabajan conectados para proporcionar datos, y estos datos son procesados gracias a las instrucciones.
 
- ### HADWARE: CPU - RAM
-   el hadware  corresponde a todas las partes tangiblas de un sistemas informatico  : susu componentes son electricos , electronicos  electromenacicoions y mecanicos ,
-  
- Hadware es un palabra inglesa (literalmente: partes duras).
-### CPU unidad central de procesos
- se trata de uno de los componentes  vitales que te  vas encontrar en tu ordenador , tu smarphne o tu tableta  o portatiñ ,  e incluso
-  yu pc  se suele llamar como unm microprocesador  o procesador 
+### HARDWARE: CPU - RAM
+El hardware corresponde a todas las partes tangibles de un sistema informático. Sus componentes son eléctricos, electrónicos, electromecanismos y mecánicos.
 
-  suela  ser pequeña , con forma  cuadrada, tinene conectores y pines metalicos , Por lo general , suele estar instalada en la placa base  de un ordenador , en un zocalo especial  que puede estar  difernets sitios  dependiendo de la  placa base . el proceso no va soladado a la placa 
-  
+Hardware es una palabra inglesa (literalmente: partes duras).
+
+### CPU: Unidad Central de Procesos
+Se trata de uno de los componentes vitales que vas a encontrar en tu ordenador, tu smartphone, tu tableta, portátil e incluso en tu PC. Se suele llamar microprocesador o procesador.
+
+Suele ser pequeña, con forma cuadrada, tiene conectores y pines metálicos. Por lo general, suele estar instalada en la placa base de un ordenador, en un zócalo especial que puede estar [...]
+
 # TEMA 2
-
