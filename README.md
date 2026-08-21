@@ -34,6 +34,7 @@ una computadora  es un sistema informatico q    ue se componmen de dos aspectos 
  se trata de uno de los componentes  vitales que te  vas encontrar en tu ordenador , tu smarphne o tu tableta  o portatiñ ,  e incluso
   yu pc  se suele llamar como unm microprocesador  o procesador 
 
-  suela  ser pequeña , con forma  cuadrada, tinene conectores y pines metalicos , Por lo general , suele estar instalada en la placa base  de un ordenador , en un zocalo especial  que puede estar  difernets sitios  dependiendo de la  placa base . el proceso no va soladado a lña placa 
-
+  suela  ser pequeña , con forma  cuadrada, tinene conectores y pines metalicos , Por lo general , suele estar instalada en la placa base  de un ordenador , en un zocalo especial  que puede estar  difernets sitios  dependiendo de la  placa base . el proceso no va soladado a la placa 
+  
+# TEMA 2
 
