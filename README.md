@@ -103,7 +103,7 @@ circutos  integrados a gran escala
   <img src="https://tse4.mm.bing.net/th/id/OIP.8ljKL66j383BDReasUOdGgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Descripción" width="500">
 ## Arquitectura de S.O
  ### Monolito
-   <img src=" https://tse1.mm.bing.net/th/id/OIP.k3VrS9Ni5Gipt6YPj_Lx_gHaEz?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Descripción" width="500">
+   <img src="https://tse1.mm.bing.net/th/id/OIP.k3VrS9Ni5Gipt6YPj_Lx_gHaEz?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Descripción" width="500">
 
  ### Estratos
    <img src="https://static.wixstatic.com/media/4f4491_3aca8d91afcf4777b11f56cb44ae1cd6.png/v1/fill/w_327,h_313,al_c,lg_1,q_85,enc_auto/4f4491_3aca8d91afcf4777b11f56cb44ae1cd6.png" alt="Descripción" width="500">
@@ -111,8 +111,7 @@ circutos  integrados a gran escala
    <img src="https://access.redhat.com/webassets/avalon/d/Red_Hat_Enterprise_Linux-8-Configuring_and_managing_virtualization-es-ES/images/adf54cb7ac2546cfdddcc56413bee5f2/virt-architecture.png" alt="Descripción" width="500">
    
   ### Cliente Servidor
-
- https://tse1.mm.bing.net/th/id/OIP.k3VrS9Ni5Gipt6YPj_Lx_gHaEz?r=0&rs=1&pid=ImgDetMain&o=7&rm=3
+ <img src="https://infimg.com/bimg/2019/02/diagrama-cliente-servidor.jpeg" alt="Descripción" width="500">
    
 
 
