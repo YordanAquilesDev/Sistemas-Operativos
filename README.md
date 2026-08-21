@@ -37,3 +37,4 @@ Se trata de uno de los componentes vitales que vas a encontrar en tu ordenador, 
 Suele ser pequeña, con forma cuadrada, tiene conectores y pines metálicos. Por lo general, suele estar instalada en la placa base de un ordenador, en un zócalo especial que puede estar [...]
 
 # TEMA 2
+## conceptos
