@@ -132,9 +132,44 @@ en linux  su terminal bash funciona diferente a windows
 ## GNU/LINUX
  es un proyecto desarrollado por Linux Torvalds  quien desarrollo el kernel Linux que controla  el hadware, Richard Stallman  quien  desarrolla la interfas GNU  uniendo  sus dos trabajos  sale el proyecto GNU Linux
  Richard Stallman crea la terminal, la consola Bash, la lista de comandos Linux, reconocimiento de aplicaciones, etc;
- <img src="https://i0.wp.com/www.tierradelazaro.com/wp-content/uploads/2016/04/stallmanylinus.jpg?resize=662%2C420" alt="Descripción" width="500"> 
  
+ <img src="https://i0.wp.com/www.tierradelazaro.com/wp-content/uploads/2016/04/stallmanylinus.jpg?resize=662%2C420" alt="Descripción" width="500"> 
 
+ ### caracteristicas de linux
+ * multiusuarios
+ * usuarios en simultaneo
+ * los usuarios se protegidos
+ * acceso al sistema (root)
+ * Facil instalar
+ * uso Libre
+ * 
+ ### Distribuciones
+  * por las  beneicios   de libertad se crean  distribuciones linux
+  * las distribuciones se diferencia por la composicion  de version del kernel de linux  yu combinaciones de librerias
+  * fuerte en seguridad
+#### Distribuciones Linux
+* Ubuntu
+* Kubuntu
+* ArchLinux
+* OpenSolaris
+* RedHat
+* OpenSlise
+#### Parecidas a Windows
+  * Linux Min
+  * Zorin OS
+  * Kubunto
+  * Windwsfx (LinuxFX)
+
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB8z46i-Bi80CmTANPz-dhW2lT-BfyzXE1ZeLjNg1Uxw&s=10" alt="Descripción" width="500"> 
+
+
+
+
+
+   
+   
+    
+ 
 
 
 
