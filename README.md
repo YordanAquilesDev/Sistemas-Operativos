@@ -112,6 +112,29 @@ circutos  integrados a gran escala
    
   ### Cliente Servidor
  <img src="https://infimg.com/bimg/2019/02/diagrama-cliente-servidor.jpeg" alt="Descripción" width="500">
+
+ # TEMA 3  Introduccion a linux y windows
+ Los sistemas operativos están divididos en 
+ * SISTEMAS OPERATIVOS PARA ESCRITORIO  
+ * PARA SISTAMA OPERATIVO PARA MOVIL
+
+preguntas para reflexionar
+¿Has escuchado sobre linux?
+es un sistema operativos  codigo abierto desarrollado 
+¿Que crees que es el Kernel en un sistemas operativo?
+es la parte mas importante de un  sistema operativo  gestiona todo el hardware  es como el cerebro humano
+es el software mas principal que  administra el hardware
+
+¿Crees que todos los sistemas operativos funcionan de la misma manera?
+no pues algunos sistemas operativos  reservan   datos y en linux borra los archivos inválidos al actualizarce
+en linux  su terminal bash funciona diferente a windows
+
+
+
+
+ 
+
+ 
    
 
 
