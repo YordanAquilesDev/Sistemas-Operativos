@@ -194,9 +194,13 @@ tabla de la libertad  linux
  Es una opción de instalación en Windows Server 2016 Standard y
 Datacenter que provee:
 •Ahorro de Hardware
+
 •Uso reducido de disco duro
+
 •Reduce la frecuencia de actualizaciones
+
 •Reduce la exposición a ataque
+
 
    
 
