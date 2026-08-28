@@ -129,6 +129,12 @@ es el software mas principal que  administra el hardware
 no pues algunos sistemas operativos  reservan   datos y en linux borra los archivos inválidos al actualizarce
 en linux  su terminal bash funciona diferente a windows
 
+## GNU/LINUX
+ es un proyecto desarrollado por Linux Torvalds  quien desarrollo el kernel Linux que controla  el hadware, Richard Stallman  quien  desarrolla la interfas GNU  uniendo  sus dos trabajos  sale el proyecto GNU Linux
+ Richard Stallman crea la terminal, la consola Bash, la lista de comandos Linux, reconocimiento de aplicaciones, etc;
+ <img src="https://i0.wp.com/www.tierradelazaro.com/wp-content/uploads/2016/04/stallmanylinus.jpg?resize=662%2C420" alt="Descripción" width="500"> 
+ 
+
 
 
 
