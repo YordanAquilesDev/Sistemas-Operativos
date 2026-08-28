@@ -162,6 +162,46 @@ en linux  su terminal bash funciona diferente a windows
 
  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB8z46i-Bi80CmTANPz-dhW2lT-BfyzXE1ZeLjNg1Uxw&s=10" alt="Descripción" width="500"> 
 
+'sofware libre no es lo mismo  que sofware gratuito'
+tabla de la libertad  linux
+|0| la libertad de usar el programa  con cualquier proposito|
+|1| libertad de estudiar como funciona el programa  y adaptarlo  a sus nesesitades|
+|2| libertad de distribuciones copias|
+|3| libertad de mejorar el programa y hacer publicas las mejorar a los demas|
+
+## Windows server
+1. Version
+   es en el año en que fue desarrrolado ejemplo: Windows server 2025
+3.  Edicion
+    es una variante dentro de a misma  version
+ ###Virtualizacion
+ Hyper -V
+* POSE entorno fisico
+* VOSE  entorno virtual
+  maquina virtual con linux
+
+ ### Licencias
+ Datacenter
+ Standart
+ Essential
+ Foundation
+
+ requerimientos minimos
+ RAM 512
+ DISCO 32 GB
+ 
+ ### SERVER CORE
+ Es una opción de instalación en Windows Server 2016 Standard y
+Datacenter que provee:
+•Ahorro de Hardware
+•Uso reducido de disco duro
+•Reduce la frecuencia de actualizaciones
+•Reduce la exposición a ataque
+
+   
+
+
+
 
 
 
