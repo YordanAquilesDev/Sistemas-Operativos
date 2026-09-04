@@ -200,6 +200,85 @@ Datacenter que provee:
 •Reduce la frecuencia de actualizaciones
 
 •Reduce la exposición a ataque
+# TEMA 4 Maquinas virtuales
+¿Que entiendes por virtualizacion?
+son esenarios  de simulacion  en el cual se asemeja a un entorno real (entorno de prueba para poner en practica losconocimientos)
+
+consiste en emular una maquina o hadware  mediante sofware.
+KVM : maquina virtual del kernerl de linux
+Hyper-V: microsof virtual server;
+<img src="https://blog.desdelinux.net/wp-content/uploads/2019/01/virtualbox-virtualizacion-imagen-destacada-blog-desdelinux.jpg" alt="Descripción" width="500"> 
+
+## OBJETIVOS
+* reducir complejidad
+* reduccion drastica de los costos
+* habilitar flexibilidad y Agilidad en la entrega de los servicios de TI
+## AFINTRION Y HUESPED
+es el sistema opertivo  del ordenador en bel cual instalamois  un progrma de virtiualizacion y que asignara   o prestara determinados recuros de hadware  a la maquina  virtual que creemos.
+
+el invitado es el  sistema opertivo  que instalamos e la maquina virtual;
+## REQUISITOS HADWARE
+para construir  la mquina virtual  tenemos que asignar  determinados recursos  de hadware, como CPU, RAM, DISCO
+
+## TIPOS
+### Virtualizar  un servidor
+* la mayoria de los servidoes funcionan a menos del 15 % de su capacidad, lo que cuasa la expansion de servidores y aumneta la complejidad.
+
+* se ejecutan varios sistemas  operativos como maquinas virtuales  en un  unico servidor fisico.
+
+### Virtualizar de Escritorio
+ *  la implementacion de escritorios  como un servicio  administrador de permite responder con mayor  rapidez ;
+
+ ### Virtualizacon de Redes
+ *   es la reproduccion completa de una red fisica en  sofware 
+ ### Virtualizacion de Almacenamiento
+ * se separan los disco y las unidades flash en los servidores
+ * SDS  estrategia para  el almacenamiento que brinda un modelo operacional mas eficaz;
+
+ ## Intel y AMD
+ Realizar una virtualización completa
+mediante software es un proceso
+engorroso y lento, por eso los
+fabricantes de microprocesadores han
+incorporado en algunos de sus
+productos soluciones hardware
+especializadas en virtualización que han
+conseguido que la velocidad de las
+soluciones virtuales aumente
+considerablemente, siendo esta una de
+las principales causas del gran empuje
+que ha recibido la virtualización
+últimamente
+
+ ## ParaVirtualizacion  y Extencion de microprosesadores
+ los núcleos
+de los sistemas operativos se ejecutan
+en el anillo o capa 0,in embargo, al
+virtualizar un sistema operativo
+virtualizado, el núcleo de dicho
+sistema no puede ejecutarse en el
+anillo 0.
+
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFSPVHaRKEk6pDCRA2mRFizhQi1vREOD6tIhuM2YaiAw&s=10" alt="Descripción" width="500"> 
+
+ ## Ventajas de la VM
+ * Creacion de particiones
+ * Aislamiento
+
+ ## Centro de datos
+ muchos servidores   principalmente por  proveedores de servicos de SaaS
+ AWS CLOUD ORACLE
+ 
+
+
+
+
+
+
+
+    
+
+
 
 
    
