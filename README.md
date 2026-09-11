@@ -164,10 +164,12 @@ en linux  su terminal bash funciona diferente a windows
 
 'sofware libre no es lo mismo  que sofware gratuito'
 tabla de la libertad  linux
-|0| la libertad de usar el programa  con cualquier proposito|
-|1| libertad de estudiar como funciona el programa  y adaptarlo  a sus nesesitades|
-|2| libertad de distribuciones copias|
-|3| libertad de mejorar el programa y hacer publicas las mejorar a los demas|
+| Libertad | Descripción |
+| --- | --- |
+| 0 | La libertad de usar el programa con cualquier propósito. |
+| 1 | La libertad de estudiar cómo funciona el programa y adaptarlo a sus necesidades. |
+| 2 | La libertad de distribuir copias del programa. |
+| 3 | La libertad de mejorar el programa y hacer públicas las mejoras|
 
 ## Windows server
 1. Version
@@ -269,6 +271,7 @@ anillo 0.
  muchos servidores   principalmente por  proveedores de servicos de SaaS
  AWS CLOUD ORACLE
  
+# TEMA 5
 
 
 
