@@ -65,8 +65,8 @@ comienza en el  Programa iniciador ROM  carga el software.
 ¿Cuantos sistemas operativos puede tener una pc?
 puede tener varios sistemas operativos    con la partición de disco.
 
+  <img src="https://image2.slideserve.com/4551635/slide4-l.jpg" alt="Ubicacion" width="500">
 
-<img src="https://image2.slideserve.com/4551635/slide4-l.jpg" alt="Descripción" width="500"> 
 ## Historia 
 Actualizaciones de Hadware (HW) y nuevos  tipos (HW).
 Nuevos  servicios por la demanda de  usuarios y administradores.
@@ -280,6 +280,14 @@ Memoria RAM
 
  ¿Para que sirve la memoria cache?
  para las copias de seguridad y acelerar el proceso  de levantamiento de un programa
+ ¿Que es la virtualizacion?
+ una tecnoologia que simula  el funcionamiento    de una computadora  mediante un sofware
+ ¿Que es el hypervisro?
+ es el  responsable de compartir tu cpu, ram, disco   y targeta de red
+ con el cual se construyen las MV
+ * hypervisor tipo 1
+ * hypervisor tipo 2
+
  
 
 
