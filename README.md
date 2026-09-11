@@ -61,10 +61,12 @@ conjunto de programas o software  destinado  permitir  la comunican lo que el us
 el sistema operativo se volvió independiente al hardware 
 ## Ubicación del SO
 esta ubicado en los primeros sectores del disco  con tamaño prefijado
-comienza en el  Programa iniciador ROM  carga el software 
-
+comienza en el  Programa iniciador ROM  carga el software.
 ¿Cuantos sistemas operativos puede tener una pc?
-puede tener varios sistemas operativos    con la partición de disco
+puede tener varios sistemas operativos    con la partición de disco.
+
+
+<img src="https://image2.slideserve.com/4551635/slide4-l.jpg" alt="Descripción" width="500"> 
 ## Historia 
 Actualizaciones de Hadware (HW) y nuevos  tipos (HW).
 Nuevos  servicios por la demanda de  usuarios y administradores.
@@ -268,10 +270,17 @@ anillo 0.
  * Aislamiento
 
  ## Centro de datos
- muchos servidores   principalmente por  proveedores de servicos de SaaS
+ muchos servidores   principalmente por  proveedores de servicios de SaaS
  AWS CLOUD ORACLE
  
 # TEMA 5
+Memoria RAM
+ Los programas que ejecuta el procesar están almacenados en memoria.
+ <img src="https://th.bing.com/th/id/R.f9a1a7c5534c94e8100e3b237d52a0d3?rik=wGcHLEt4t5Duqw&riu=http%3a%2f%2fwww.ingenieroinformatico.org%2fwp-content%2fuploads%2f2009%2f08%2fJerarquia_memoria.png&ehk=IHtQ6bRyFNyqcacciOZgJ82ckbdnB%2f%2bEdtJsF%2bjOl4w%3d&risl=&pid=ImgRaw&r=0" alt="Descripción" width="500"> 
+
+ ¿Para que sirve la memoria cache?
+ para las copias de seguridad y acelerar el proceso  de levantamiento de un programa
+ 
 
 
 
