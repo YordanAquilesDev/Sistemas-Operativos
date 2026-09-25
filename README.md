@@ -313,39 +313,81 @@ Memoria RAM
 
  ### Bloque de control de procesos
  es un registro  donde  el sistema operativo  donde el sistema agrupa los procesos con su identificar de procesos  PID
+## Algoritmos de Planificación
 
- ## Algotimos de Planificacion
- * FIFO  (primero que entra primero que sale)
- * SJF (el trabajop mas corto primero)
- * ROUN ROBIN
- * PLANIFICACION POR PRIORIDAD
- ### FIFO
- | TRABAJO | RÁFAGA CPU | TIEMPO DE LLEGADA |
-| :--- | :--- | :--- |
-| A | 3 |2 |
-| B  | 1| 4|
-| C  | 3|0 |
-| D  | 4|1 |
-| F  | 2| 3|
- 
- C  D    A    E     B      
- 0  3    7    10    12
- TIEMPO ESPERA
-  A=(7-2)= 5           A=10
-  B= (12-4)=8          B=13
-  C=(0-0)=0            C=3
-  D=(3-1)=2            D=7
-  E=(10-3)=7           E=12
+### 1. FIFO / FCFS (Primero en entrar, primero en salir)
+Orden de llegada: C (0) -> D (1) -> A (2) -> F (3) -> B (4).
 
-  TIEMPO MEDIA DE ESPERA        TIEMPO DE RETORNO MEDIO
-  TRM=(5+8+0+2+7)/2=4,4 uT        TRM=(10+13+3+7+12)/2=9uT
-  ### SJF
-  
- 
+* **Diagrama de Gantt:**
+  C (0-3) | D (3-7) | A (7-10) | F (10-12) | B (12-13)
 
+| Trabajo | Tiempo de Llegada | Ráfaga CPU | Tiempo de Retorno | Tiempo de Espera |
+| :--- | :--- | :--- | :--- | :--- |
+| **C** | 0 | 3 | 3 - 0 = 3 | 3 - 3 = 0 |
+| **D** | 1 | 4 | 7 - 1 = 6 | 6 - 4 = 2 |
+| **A** | 2 | 3 | 10 - 2 = 8 | 8 - 3 = 5 |
+| **F** | 3 | 2 | 12 - 3 = 9 | 9 - 2 = 7 |
+| **B** | 4 | 1 | 13 - 4 = 9 | 9 - 1 = 8 |
 
+* **Tiempo Medio de Espera:** (0 + 2 + 5 + 7 + 8) / 5 = **4.4 uT**
+* **Tiempo de Retorno Medio:** (3 + 6 + 8 + 9 + 9) / 5 = **7.0 uT**
 
+---
 
+### 2. SJF (Trabajo más corto primero - No preemptivo)
+Se elige el proceso disponible con menor ráfaga de CPU.
+
+* **Diagrama de Gantt:**
+  C (0-3) | F (3-5) | B (5-6) | A (6-9) | D (9-13)
+
+| Trabajo | Tiempo de Llegada | Ráfaga CPU | Tiempo de Retorno | Tiempo de Espera |
+| :--- | :--- | :--- | :--- | :--- |
+| **C** | 0 | 3 | 3 - 0 = 3 | 3 - 3 = 0 |
+| **F** | 3 | 2 | 5 - 3 = 2 | 2 - 2 = 0 |
+| **B** | 4 | 1 | 6 - 4 = 2 | 2 - 1 = 1 |
+| **A** | 2 | 3 | 9 - 2 = 7 | 7 - 3 = 4 |
+| **D** | 1 | 4 | 13 - 1 = 12 | 12 - 4 = 8 |
+
+* **Tiempo Medio de Espera:** (0 + 0 + 1 + 4 + 8) / 5 = **2.6 uT**
+* **Tiempo de Retorno Medio:** (3 + 2 + 2 + 7 + 12) / 5 = **5.2 uT**
+
+---
+
+### 3. Planificación por Prioridad (No preemptiva)
+*Menor número = Mayor prioridad* (C=1, A=2, D=3, B=3, F=4).
+
+* **Diagrama de Gantt:**
+  C (0-3) | A (3-6) | D (6-10) | B (10-11) | F (11-13)
+
+| Trabajo | Prioridad | Tiempo de Llegada | Ráfaga CPU | Tiempo de Retorno | Tiempo de Espera |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **C** | 1 | 0 | 3 | 3 - 0 = 3 | 3 - 3 = 0 |
+| **A** | 2 | 2 | 3 | 6 - 2 = 4 | 4 - 3 = 1 |
+| **D** | 3 | 1 | 4 | 10 - 1 = 9 | 9 - 4 = 5 |
+| **B** | 3 | 4 | 1 | 11 - 4 = 7 | 7 - 1 = 6 |
+| **F** | 4 | 3 | 2 | 13 - 3 = 10 | 10 - 2 = 8 |
+
+* **Tiempo Medio de Espera:** (0 + 1 + 5 + 6 + 8) / 5 = **4.0 uT**
+* **Tiempo de Retorno Medio:** (3 + 4 + 9 + 7 + 10) / 5 = **6.6 uT**
+
+---
+
+### 4. Round Robin (Q = 3)
+Los procesos se turnan en bloques máximos de 3 unidades de tiempo.
+
+* **Diagrama de Gantt:**
+  C (0-3) | D (3-6) | A (6-9) | F (9-11) | B (11-12) | D (12-13)
+
+| Trabajo | Tiempo de Llegada | Ráfaga CPU | Tiempo de Retorno | Tiempo de Espera |
+| :--- | :--- | :--- | :--- | :--- |
+| **C** | 0 | 3 | 3 - 0 = 3 | 3 - 3 = 0 |
+| **A** | 2 | 3 | 9 - 2 = 7 | 7 - 3 = 4 |
+| **F** | 3 | 2 | 11 - 3 = 8 | 8 - 2 = 6 |
+| **B** | 4 | 1 | 12 - 4 = 8 | 8 - 1 = 7 |
+| **D** | 1 | 4 | 13 - 1 = 12 | 12 - 4 = 8 |
+
+* **Tiempo Medio de Espera:** (0 + 4 + 6 + 7 + 8) / 5 = **5.0 uT**
+* **Tiempo de Retorno Medio:** (3 + 7 + 8 + 8 + 12) / 5 = **7.6 uT**
 
 
 
