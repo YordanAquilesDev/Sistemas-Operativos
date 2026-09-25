@@ -273,7 +273,7 @@ anillo 0.
  muchos servidores   principalmente por  proveedores de servicios de SaaS
  AWS CLOUD ORACLE
  
-# TEMA 5
+# TEMA 5 repaso
 Memoria RAM
  Los programas que ejecuta el procesar están almacenados en memoria.
  <img src="https://th.bing.com/th/id/R.f9a1a7c5534c94e8100e3b237d52a0d3?rik=wGcHLEt4t5Duqw&riu=http%3a%2f%2fwww.ingenieroinformatico.org%2fwp-content%2fuploads%2f2009%2f08%2fJerarquia_memoria.png&ehk=IHtQ6bRyFNyqcacciOZgJ82ckbdnB%2f%2bEdtJsF%2bjOl4w%3d&risl=&pid=ImgRaw&r=0" alt="Descripción" width="500"> 
@@ -288,7 +288,63 @@ Memoria RAM
  * hypervisor tipo 1
  * hypervisor tipo 2
 
+# TEMA 6   Planificacion de procesos
+¿que entiende por planificacion de procesos?
+  se entiene por que el  procesos no puede ejecutarse por ejecutarse si no debe registrarse a un plan estrategico
+  ## Gestion Procesos
+  es la tarea funtamental del sistema operativo  debe de separa recursos  para los procesos  y permitir  intercambiar informacion
+  proteger los recursos de cada procesos y permitir la sincronización  entre procesos
+  ¿Que es un proceso?
+  * es un grama en ejecucion
+  * es una instacia de un programa ejecutable en un computador
+  *  la entidad  que se asigna   y ejecutar en un procesador
+  *    una actividad  que   ejecuta  una secuencia de instrucciones
+  ## Planificación de Procesos
+   es la funcion fundamental de los sitemas operativos  que permite   gestinar procesos  accedan al procesador.  el objetivo es maximizar el  rendimiento y la egficiencia del  sistema
+   ### contador de programa
+   es un indicador   que ayyuda al cpu a dirigir  el siguente proceso
+
+   ### estados de procesos
+   * nuevo  Comienza
+   * Listo   una ves asignado  los recursos esta listo para la ejecucion
+   * Ejecucion en  estado ejecicion 
+   * Bloqueado si  ay fuentes que bloquean   la ejecucion
+   * Terminado finalmente el estado finalizado
+
+ ### Bloque de control de procesos
+ es un registro  donde  el sistema operativo  donde el sistema agrupa los procesos con su identificar de procesos  PID
+
+ ## Algotimos de Planificacion
+ * FIFO  (primero que entra primero que sale)
+ * SJF (el trabajop mas corto primero)
+ * ROUN ROBIN
+ * PLANIFICACION POR PRIORIDAD
+ ### FIFO
+ | TRABAJO | RÁFAGA CPU | TIEMPO DE LLEGADA |
+| :--- | :--- | :--- |
+| A | 3 |2 |
+| B  | 1| 4|
+| C  | 3|0 |
+| D  | 4|1 |
+| F  | 2| 3|
  
+ C  D    A    E     B      
+ 0  3    7    10    12
+ TIEMPO ESPERA
+  A=(7-2)= 5           A=10
+  B= (12-4)=8          B=13
+  C=(0-0)=0            C=3
+  D=(3-1)=2            D=7
+  E=(10-3)=7           E=12
+
+  TIEMPO MEDIA DE ESPERA        TIEMPO DE RETORNO MEDIO
+  TRM=(5+8+0+2+7)/2=4,4 uT        TRM=(10+13+3+7+12)/2=9uT
+  ### SJF
+  
+ 
+
+
+
 
 
 
