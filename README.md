@@ -388,11 +388,71 @@ Los procesos se turnan en bloques máximos de 3 unidades de tiempo.
 
 * **Tiempo Medio de Espera:** (0 + 4 + 6 + 7 + 8) / 5 = **5.0 uT**
 * **Tiempo de Retorno Medio:** (3 + 7 + 8 + 8 + 12) / 5 = **7.6 uT**
+# TEMA 7 GESTION DE MEMORIA
+¿que es la memoria RAM?
+es un hadware encarga de almacenar  informacion  temporal  para un proceso
+## INTRODUCCION DE LA RAM 
+  se refiere  a los distintps metodos y operaciones que se encargan de optener la maxima utilidad de la memoria,
+  organizando los procesos y programas
+##  MEMORIA VIRTUAL
+es una tecnica de gestion de la memoria  que permite que el sistema operativo  disponga 
+ tanto de sofware  de usuario como para si mismo, 
+
+La mayoria de los ordenadores tienen Cuatro tipod de Memoria: 
+* CPU
+* Cache
+* RAM
+* Disco
+## JERARQUIA DE MEMORIA DEL COMPUTADOR
+![Jerarquía de memoria del computador](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Jerarquia-de-memoria-del-computador.svg/1280px-Jerarquia-de-memoria-del-computador.svg.png)
 
 
+### Gestion memoria cache
+ * controla la tranferencia de informacion entre cahe y memoria principal
+ *  se lleva a cavo en hadwarer MMU o ("Management Memory Unit")
+### Gestion memoria virtual
+ * controla la tranferencia de informacion entre cahe y memoria principal
+ * parte del proceso se realiza en el hadware MMU 
+## Monoprogramacion
+* solo 1 programa a la ves en la memoria
+* cuando termina un proceso pasa a la siguiente
+## Multiprogramacion
+la RAM se divide en varias espacios de tamaño variables  para poder  contener procesos de largos tamaños
+* Particiones pequeñas 
+* particiones grandes
+## Fragmentacion Interna
+fenomeno generado por la diferencia entre tamaño de una particion de memoria y el modulo de programa
+consecuencia provoca cuando un proceso  no consume toda la memoria asignada
+
+![Fragmentación de memoria](https://dgtrabada.github.io/_images/memoria_ppal.png)
+
+## Fragmentacion Externa
+ ocurre cuando la memoria que es externa a las particiones se  fragmenta de forma incremental y decremental  completamente fuera del proceso
+ ### Fragmentación de memoria
+
+La fragmentación ocurre cuando el sistema asigna memoria en bloques pequeños y separados, dejando huecos inutilizables para procesos más grandes.
+
+![Fragmentación de memoria](https://d3e8mc9t3dqxs7.cloudfront.net/wp-content/uploads/sites/11/2020/05/Fragmentation3-696x268.png)
 
 
+## PARTICIONAMIENTO DE  MEMRORIA
+### Fijo
+ se parte la memoria  en partes fijas  tanto como  particiones iguales o particiones dinamicas
 
+ *  se va a producir la fragmentacion inetrna
+   en partes de 
+### D
+
+## UBICACION DE PROCESO
+ al momento de  que se decide traer un proceso a memoria se deve escoger en que lugar disponible  se colocara
+  ### METODO de primer ajuste
+   se coloca en el primer lugar disponible de la memoria RAAM
+   ### METODO SIGUIENTE
+   se soloca en la siguiente posicion disponible donde el proceso quepa, desde ña ultima ubicacion que se realizo (ahora B) si llega al final comensara de cero
+ ### METODO MEJOR AJUSTE
+  el proceso se coloca en la particion que  mejor  se acomode a su tamaño de requerimiento de RAM
+  ### METODO PEOr AJUSTE 
+  al contraria de  mejor ajuste  ¿pero por que? lo que le interasa es la ejecucion del programa no importa si se desperdicia RAM
 
     
 
