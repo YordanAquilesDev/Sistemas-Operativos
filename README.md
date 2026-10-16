@@ -454,6 +454,24 @@ La fragmentación ocurre cuando el sistema asigna memoria en bloques pequeños y
   ### METODO PEOr AJUSTE 
   al contraria de  mejor ajuste  ¿pero por que? lo que le interasa es la ejecucion del programa no importa si se desperdicia RAM
 
+# TEMA Repaso
+## Active Directory
+ es  como una base de datos  a nivel   gestion empresarial  contiene   los usuarios computadores  grupos de una red infromatica  se implementa en el servidor
+ ## DNS
+ Servibor de nombres de dominio
+  sistema de  control de dominio   que forma parte del Active Directory
+  ## DCHP 
+  servidor  de entrega de  ips de manera autonamtica a clientes
+  ## IIS
+   servidor web de entrega de  paginas web con susu protocolos (HTTP)
+   
+
+
+
+
+
+
+
     
 
 
