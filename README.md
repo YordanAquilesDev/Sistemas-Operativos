@@ -454,16 +454,24 @@ La fragmentación ocurre cuando el sistema asigna memoria en bloques pequeños y
   ### METODO PEOr AJUSTE 
   al contraria de  mejor ajuste  ¿pero por que? lo que le interasa es la ejecucion del programa no importa si se desperdicia RAM
 
-# TEMA Repaso
+# TEMA 10 Repaso
 ## Active Directory
  es  como una base de datos  a nivel   gestion empresarial  contiene   los usuarios computadores  grupos de una red infromatica  se implementa en el servidor
- ## DNS
- Servibor de nombres de dominio
+   ## DNS
+   Servibor de nombres de dominio
   sistema de  control de dominio   que forma parte del Active Directory
   ## DCHP 
   servidor  de entrega de  ips de manera autonamtica a clientes
   ## IIS
    servidor web de entrega de  paginas web con susu protocolos (HTTP)
+
+# TEMA 11 
+## FTP (File Transfer Protocol)
+protocolo para la transferencia de archivos entre sistemas  conectados a una red TCP, bsado en Cliente-Servidor
+como si fuera una craga y descarga entre archivos entre cliente - servidor
+![FTP](https://www.filestash.app/img/posts/2021-07-27-getting-started-with-a-ftp-server_0.png)
+   
+   
    
 
 
