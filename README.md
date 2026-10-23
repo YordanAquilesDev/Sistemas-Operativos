@@ -470,6 +470,33 @@ La fragmentación ocurre cuando el sistema asigna memoria en bloques pequeños y
 protocolo para la transferencia de archivos entre sistemas  conectados a una red TCP, bsado en Cliente-Servidor
 como si fuera una craga y descarga entre archivos entre cliente - servidor
 ![FTP](https://www.filestash.app/img/posts/2021-07-27-getting-started-with-a-ftp-server_0.png)
+ el servicio FTP es  ofrecido por la cxpa de Aplicacion de modelo de capa de red TCP/IP
+ usando los puertos 20 y 21.
+
+ un problema del FTP  es que es echo para  la maxima velocidad pero no maxima seguridad
+ todo el intercanbio de informacion entre cliente y servidor como login password o transferencia de  archivos se ase en texto plano sin ningun tipo de  sifrado
+ ## SERVIDOR FTP
+ es un programa espacial que se ejecuta en un equipo servidor
+ * alojamiento web
+ * como servidor backup
+para asegurar se usa un sifrado de datos
+el nuevo FTP es SFTP
+## CLENTE FTP
+los navegadores suenlen   usar programas clientes FTP para  trasferri archivos
+
+## MODOS CONEXION
+### ACTIVO
+Cliente lanza la peticion, atiente la solicitud del cliente por el puerto 21 y emite su respuesta por el puerto 20
+### PASIVO
+Cliente lanza la peticion, escucha el servidor al puerto 21 y el sevridor redirije a el cliente a su puerto de destino
+## ESCRITORIO REMOTO 
+  es la tecnologia que le permite controlar y usar programas en un escritorio remoto  de forma  similar a su propio ordenador 
+
+  si nuestra inetnciones realix¿zar tareas de soporte remoto  se usa programas o sofware  de servicio a conexion remorto
+   asi como tambien VPN , tpken, certificado digital
+
+
+ 
    
    
    
